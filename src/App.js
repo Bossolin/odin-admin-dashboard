@@ -1,5 +1,15 @@
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Sidebar from "./components/Sidebar";
+
 function App() {
-  return <div className="bg-slate-200">hello</div>;
+  return (
+    <div className="">
+      <Sidebar />
+      <Header />
+      <Main />
+    </div>
+  );
 }
 
 export default App;
