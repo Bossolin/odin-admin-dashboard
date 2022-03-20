@@ -1,7 +1,7 @@
 import React from "react";
 
 const Main = () => {
-  return <div className="bg-slate-200 sm:">Main</div>;
+  return <div className="">Main</div>;
 };
 
 export default Main;

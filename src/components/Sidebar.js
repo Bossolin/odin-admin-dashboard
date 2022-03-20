@@ -11,7 +11,7 @@ const Sidebar = ({ openModal, setOpenModal }) => {
     >
       <button
         onClick={() => setOpenModal(!openModal)}
-        className={`${openModal ? "block" : "hidden"}`}
+        className={`${openModal ? "block" : "hidden"} `}
       >
         <Icon path={mdiCloseThick} title="Close Dashboard" size={2} />
       </button>
