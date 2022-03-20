@@ -13,7 +13,7 @@ const Header = ({ openModal, setOpenModal }) => {
       <button
         className={`
         ${openModal ? "hidden" : "block"}
-        sm:hidden z-10 relative -top-28 left-4 text-sky-500`}
+        sm:hidden z-10 relative -top-28 left-4 text-sky-500 `}
         onClick={() => setOpenModal(!openModal)}
       >
         <Icon path={mdiViewDashboard} title="Dashboard" size={3} />
