@@ -25,6 +25,7 @@ const Sidebar = ({ openModal, setOpenModal }) => {
         <Icon path={mdiViewDashboard} title="Dashboard" size={2} />{" "}
         <span className="p-4">Dashboard</span>
       </div>
+
       <div className="py-8">
         <div className="text-white px-3 flex items-center sm:text-xl text-3xl">
           <Icon path={mdiHome} title="Home" size={1} />{" "}
@@ -54,22 +55,22 @@ const Sidebar = ({ openModal, setOpenModal }) => {
 
       <div className="text-white px-3 flex items-center sm:text-xl text-3xl">
         <Icon path={mdiCog} title="Settings" size={1} />{" "}
-        <span className="px-4 py-2">Settings</span>
+        <span className="px-6 py-2">Settings</span>
       </div>
       <div className="text-white px-3 flex items-center sm:text-xl text-3xl">
         <Icon path={mdiHelpBox} title="Support" size={1} />{" "}
-        <span className="px-4 py-2">Support</span>
+        <span className="px-6 py-2">Support</span>
       </div>
       <div className="text-white px-3 flex items-center sm:text-xl text-3xl">
         <Icon path={mdiShieldCheck} title="Privacy" size={1} />{" "}
-        <span className="px-4 py-2">Privacy</span>
+        <span className="px-6 py-2">Privacy</span>
       </div>
 
       <button
         onClick={() => setOpenModal(!openModal)}
         className={`${
           openModal ? "block" : "hidden"
-        } text-white fixed bottom-24 left-4`}
+        } text-white fixed bottom-44 left-6`}
       >
         <Icon path={mdiCloseThick} title="Close Dashboard" size={3} />
       </button>
