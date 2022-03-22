@@ -8,7 +8,7 @@ const Header = ({ openModal, setOpenModal }) => {
     <div
       className={`${
         openModal ? "hidden" : "block"
-      } h-[12vh] sm:h-auto px-8 py-6 grid grid-cols-[5fr_3fr] grid-rows-[1fr_2fr] sm:relative fixed w-full sm:row-span-1 bottom-0 bg-white shadow-md `}
+      } sm:h-auto px-8 pt-6 grid grid-cols-[5fr_3fr] grid-rows-[1fr_2fr] sm:relative fixed w-full sm:row-span-1 bottom-0 bg-white shadow-md `}
     >
       <div className="flex items-center">
         <label htmlFor="search" className="">
@@ -18,12 +18,22 @@ const Header = ({ openModal, setOpenModal }) => {
           type="text"
           name="search"
           id="search"
-          className="bg-slate-200 ml-4 rounded-2xl h-8 w-full pl-4"
+          className="bg-slate-200 mx-4 rounded-2xl h-8 w-full pl-4"
         />
       </div>
-      <div className="">
+      <div className="flex items-center justify-center">
         <Icon path={mdiBellRingOutline} title="Alerts" size={1} />
-        <img src={img} alt="Cat" />
+        <div className="mx-8">
+          <img src={img} alt="Cat" className="rounded-full max-h-12" />
+        </div>
+        <p className="text-lg">Vladyslav Okipnyak</p>
+      </div>
+      <div className="my-4 flex items-center">
+        <img src={img} alt="Cat" className="rounded-full max-h-20 mx-4" />
+        <div className="">
+          <p>Hi there,</p>
+          <p className="text-2xl">Vladyslav Okipnyak (@Bossolin)</p>
+        </div>
       </div>
       <button
         className={`
