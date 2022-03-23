@@ -2,6 +2,7 @@ import React from "react";
 import Icon from "@mdi/react";
 import { mdiBellRingOutline, mdiMagnify, mdiViewDashboard } from "@mdi/js";
 import img from "../img/cat.jpeg";
+import Button from "./Button";
 
 const Header = ({ openModal, setOpenModal }) => {
   return (
@@ -34,6 +35,11 @@ const Header = ({ openModal, setOpenModal }) => {
           <p>Hi there,</p>
           <p className="text-2xl">Vladyslav Okipnyak (@Bossolin)</p>
         </div>
+      </div>
+      <div className={"flex justify-around items-center"}>
+        <Button name={"New"} />
+        <Button name={"Upload"} />
+        <Button name={"Share"} />
       </div>
       <button
         className={`
