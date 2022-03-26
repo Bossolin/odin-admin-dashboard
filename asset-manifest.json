@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/odin-admin-dashboard/static/css/main.31093873.css",
+    "main.js": "/odin-admin-dashboard/static/js/main.ae49f676.js",
+    "static/media/cat.jpeg": "/odin-admin-dashboard/static/media/cat.8613cb0d42bbf0a89237.jpeg",
+    "index.html": "/odin-admin-dashboard/index.html",
+    "main.31093873.css.map": "/odin-admin-dashboard/static/css/main.31093873.css.map",
+    "main.ae49f676.js.map": "/odin-admin-dashboard/static/js/main.ae49f676.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31093873.css",
+    "static/js/main.ae49f676.js"
+  ]
+}
