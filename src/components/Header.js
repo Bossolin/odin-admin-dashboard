@@ -9,11 +9,13 @@ const Header = ({ openModal, setOpenModal }) => {
     <div
       className={`${
         openModal ? "hidden" : "block"
-      } px-8 pt-6 sm:grid sm:grid-cols-[5fr_3fr] sm:grid-rows-[1fr_2fr] sm:relative fixed w-full sm:row-span-1 bottom-0 bg-white shadow-md `}
+      } px-8 pt-4 z-10 sm:grid sm:grid-cols-[5fr_3fr] sm:grid-rows-[1fr_2fr] sm:relative fixed w-full sm:row-span-1 bottom-0 bg-white shadow-md `}
     >
       <div className="flex items-center">
         <label htmlFor="search" className="">
-          <Icon path={mdiMagnify} title="Search" size={1} />
+          <button>
+            <Icon path={mdiMagnify} title="Search" size={1} />
+          </button>
         </label>
         <input
           type="text"
